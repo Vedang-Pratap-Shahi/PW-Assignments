@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>
+Intro to DBMS
+</title>
+</head>
+<body>
+Database
+
+A database is an organized collection of structured data, accessible by electronic devices for efficient storage, retrieval, and manipulation. It's like a digital library where information is meticulously categorized and stored for easy access. Think of it as a filing cabinet with folders, subfolders, and labeled files, but much more sophisticated and searchable.
+
+Why We Need Databases
+
+Organization and Efficient Access: Databases allow for structured storage, making data retrieval significantly faster and more efficient than searching through countless files or folders.
+Data Integrity: DBMSs (Database Management Systems) enforce data consistency by reducing redundancy and ensuring data follows predefined rules.
+Scalability: Databases can seamlessly grow as your data volume increases, unlike flat file systems that become cumbersome with large datasets.
+Data Sharing and Collaboration: Databases facilitate controlled sharing and collaboration on data, promoting teamwork and data-driven decision-making.
+Security and Permissions: You can define user access levels, ensuring only authorized personnel can view, modify, or delete sensitive data.
+Queries and Reporting: Databases empower you to create complex queries to extract specific information and generate insightful reports.
+File-Based Storage Systems
+
+A file-based storage system organizes data into individual files on a storage device. Think of it as a series of folders and documents on your computer. While simple and familiar, it has limitations:
+
+Challenge of File-Based Storage Systems
+
+Data Redundancy: Data may be duplicated across multiple files, leading to wasted storage and inconsistencies.
+Data Inconsistency: Without a central management system, data integrity is difficult to maintain, and inconsistencies can arise.
+Limited Sharing and Collaboration: Sharing data from numerous files becomes a challenge, hindering teamwork and data exchange.
+Scalability Issues: As data volume increases, managing files scattered across folders becomes cumbersome.
+Limited Security: File systems often lack robust user access controls, posing security risks.
+Database Management Systems (DBMS)
+
+A DBMS is a software application that facilitates the creation, storage, retrieval, management, and manipulation of data in a database. It addresses the limitations of file-based storage.
+
+Why We Need DBMS
+
+DBMSs tackle the challenges of file-based storage systems by providing:
+
+Data Structure: Data is organized in tables (relations) with defined columns and rows, enabling structured querying and retrieval.
+Data Integrity: DBMSs enforce data consistency through data types, constraints, and normalization techniques.
+Query Processing: Dedicated query languages like SQL empower users to efficiently retrieve specific data.
+Concurrency Control: DBMSs manage concurrent access to data, preventing conflicts when multiple users are modifying the database.
+Security and Recovery: User access controls and database recovery mechanisms ensure data security and integrity.
+Types of DBMS Classification
+
+Based on Data Model:
+
+Relational DBMS (RDBMS): Data is structured in tables with relationships between them. (e.g., MySQL, PostgreSQL)
+Object-Oriented DBMS (OODBMS): Data is modeled as objects with properties and methods, similar to object-oriented programming. (e.g., ObjectStore, GemStone)
+NoSQL DBMS: Designed for flexible data structures, often used for large, unstructured datasets. (e.g., MongoDB, Cassandra)
+Hierarchical DBMS: Organizes data in a tree-like structure with parent-child relationships. (e.g., IBM IMS)
+Network DBMS: Allows for complex relationships between records, providing more flexibility than hierarchical models. (e.g., CODASYL)
+Based on Distribution:
+
+Centralized DBMS: All data resides on a single server.
+Distributed DBMS: Data is distributed across multiple servers, often geographically dispersed.
+Significance of Data Modeling
+
+Data modeling is the process of defining the structure and relationships of data within a database. It's like a blueprint for your data, ensuring efficient organization, retrieval, and manipulation.
+
+Types of Data Modeling
+
+Entity-Relationship (ER) Modeling:
+
+Uses entities (real-world objects) and relationships to represent the data structure.
+Helpful for visualizing data relationships and identifying attributes.
+Relational Modeling:
+
+Translates ER diagrams into tables, defining relationships using foreign keys.
+Ensures data integrity and facilitates efficient querying in RDBMS.
+3-Schema Architecture
+
+Internal Schema (Physical Schema): Defines how data is physically stored and accessed at the storage level (hidden from users).
+Conceptual Schema (Logical Schema): Represents the overall data structure, independent of physical storage details (understandable for database administrators).
+
+</body>
+</html>
